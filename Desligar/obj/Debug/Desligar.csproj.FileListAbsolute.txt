@@ -1,0 +1,14 @@
+C:\Users\Adriel\source\repos\Desligar\Desligar\bin\Debug\Desligar.exe.config
+C:\Users\Adriel\source\repos\Desligar\Desligar\bin\Debug\Desligar.exe
+C:\Users\Adriel\source\repos\Desligar\Desligar\bin\Debug\Desligar.pdb
+C:\Users\Adriel\source\repos\Desligar\Desligar\obj\Debug\Desligar.csprojAssemblyReference.cache
+C:\Users\Adriel\source\repos\Desligar\Desligar\obj\Debug\Desligar.Form1.resources
+C:\Users\Adriel\source\repos\Desligar\Desligar\obj\Debug\Desligar.Properties.Resources.resources
+C:\Users\Adriel\source\repos\Desligar\Desligar\obj\Debug\Desligar.csproj.GenerateResource.cache
+C:\Users\Adriel\source\repos\Desligar\Desligar\obj\Debug\Desligar.csproj.CoreCompileInputs.cache
+C:\Users\Adriel\source\repos\Desligar\Desligar\obj\Debug\Desligar.exe
+C:\Users\Adriel\source\repos\Desligar\Desligar\obj\Debug\Desligar.pdb
+C:\Users\Adriel\source\repos\Desligar\Desligar\obj\Debug\Desligar.SecondaryForms.FormHoras.resources
+C:\Users\Adriel\source\repos\Desligar\Desligar\obj\Debug\Desligar.SecondaryForms.FormMinutos.resources
+C:\Users\Adriel\source\repos\Desligar\Desligar\obj\Debug\Desligar.SecondaryForms.FormSegundos.resources
+C:\Users\Adriel\source\repos\Desligar\Desligar\obj\Debug\Desligar.SecondaryForms.FormAviso.resources
