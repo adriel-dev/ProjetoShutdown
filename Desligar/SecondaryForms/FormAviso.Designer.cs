@@ -36,7 +36,7 @@
             // 
             this.labelTexto.AutoSize = true;
             this.labelTexto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTexto.Location = new System.Drawing.Point(48, 40);
+            this.labelTexto.Location = new System.Drawing.Point(58, 50);
             this.labelTexto.Name = "labelTexto";
             this.labelTexto.Size = new System.Drawing.Size(252, 17);
             this.labelTexto.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             this.btnCancelar.FlatAppearance.BorderSize = 0;
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancelar.Location = new System.Drawing.Point(129, 80);
+            this.btnCancelar.Location = new System.Drawing.Point(149, 99);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(77, 26);
             this.btnCancelar.TabIndex = 1;
@@ -64,6 +64,7 @@
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.labelTexto);
             this.Name = "FormAviso";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormAviso";
             this.ResumeLayout(false);
             this.PerformLayout();

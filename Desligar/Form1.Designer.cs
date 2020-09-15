@@ -79,7 +79,7 @@
             this.btnSegundos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSegundos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSegundos.ForeColor = System.Drawing.Color.White;
-            this.btnSegundos.Location = new System.Drawing.Point(0, 138);
+            this.btnSegundos.Location = new System.Drawing.Point(0, 132);
             this.btnSegundos.Name = "btnSegundos";
             this.btnSegundos.Size = new System.Drawing.Size(125, 47);
             this.btnSegundos.TabIndex = 3;
@@ -94,7 +94,7 @@
             this.btnMinutos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinutos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinutos.ForeColor = System.Drawing.Color.White;
-            this.btnMinutos.Location = new System.Drawing.Point(0, 91);
+            this.btnMinutos.Location = new System.Drawing.Point(0, 85);
             this.btnMinutos.Name = "btnMinutos";
             this.btnMinutos.Size = new System.Drawing.Size(125, 47);
             this.btnMinutos.TabIndex = 2;
@@ -109,7 +109,7 @@
             this.btnHoras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHoras.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHoras.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.btnHoras.Location = new System.Drawing.Point(0, 44);
+            this.btnHoras.Location = new System.Drawing.Point(0, 38);
             this.btnHoras.Name = "btnHoras";
             this.btnHoras.Size = new System.Drawing.Size(125, 47);
             this.btnHoras.TabIndex = 1;
@@ -124,14 +124,14 @@
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(125, 44);
+            this.panelLogo.Size = new System.Drawing.Size(125, 38);
             this.panelLogo.TabIndex = 0;
             // 
             // linkLabel
             // 
             this.linkLabel.AutoSize = true;
             this.linkLabel.LinkColor = System.Drawing.Color.CornflowerBlue;
-            this.linkLabel.Location = new System.Drawing.Point(36, 17);
+            this.linkLabel.Location = new System.Drawing.Point(36, 13);
             this.linkLabel.Name = "linkLabel";
             this.linkLabel.Size = new System.Drawing.Size(53, 13);
             this.linkLabel.TabIndex = 0;
@@ -147,7 +147,7 @@
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitleBar.Location = new System.Drawing.Point(125, 0);
             this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(343, 44);
+            this.panelTitleBar.Size = new System.Drawing.Size(343, 38);
             this.panelTitleBar.TabIndex = 1;
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
@@ -156,9 +156,9 @@
             this.btnMinimizar.FlatAppearance.BorderSize = 0;
             this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimizar.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.btnMinimizar.Location = new System.Drawing.Point(257, 3);
+            this.btnMinimizar.Location = new System.Drawing.Point(242, 3);
             this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(40, 40);
+            this.btnMinimizar.Size = new System.Drawing.Size(45, 32);
             this.btnMinimizar.TabIndex = 1;
             this.btnMinimizar.Text = "__";
             this.btnMinimizar.UseVisualStyleBackColor = true;
@@ -169,9 +169,9 @@
             this.btnFechar.FlatAppearance.BorderSize = 0;
             this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFechar.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.btnFechar.Location = new System.Drawing.Point(303, 3);
+            this.btnFechar.Location = new System.Drawing.Point(293, 3);
             this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(40, 40);
+            this.btnFechar.Size = new System.Drawing.Size(47, 32);
             this.btnFechar.TabIndex = 0;
             this.btnFechar.Text = "X";
             this.btnFechar.UseVisualStyleBackColor = true;
@@ -184,9 +184,9 @@
             this.panelFormSecundario.Controls.Add(this.lblSeta);
             this.panelFormSecundario.Controls.Add(this.lblTexto);
             this.panelFormSecundario.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelFormSecundario.Location = new System.Drawing.Point(125, 44);
+            this.panelFormSecundario.Location = new System.Drawing.Point(125, 38);
             this.panelFormSecundario.Name = "panelFormSecundario";
-            this.panelFormSecundario.Size = new System.Drawing.Size(343, 164);
+            this.panelFormSecundario.Size = new System.Drawing.Size(343, 170);
             this.panelFormSecundario.TabIndex = 2;
             // 
             // lblSeta
@@ -243,11 +243,11 @@
         private System.Windows.Forms.Panel panelTitleBar;
         private System.Windows.Forms.Button btnMinimizar;
         private System.Windows.Forms.Button btnFechar;
-        private System.Windows.Forms.Panel panelFormSecundario;
         private System.Windows.Forms.Label lblVersion;
         private System.Windows.Forms.LinkLabel linkLabel;
         private System.Windows.Forms.Label lblSeta;
         private System.Windows.Forms.Label lblTexto;
+        public System.Windows.Forms.Panel panelFormSecundario;
     }
 }
 

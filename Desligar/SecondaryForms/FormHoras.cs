@@ -39,26 +39,13 @@ namespace Desligar.SecondaryForms
             }
         }
 
-        private void consoleWritter()
-        {
-            Process processo = new Process();
-            processo.StartInfo.FileName = "cmd.exe";
-            processo.StartInfo.UseShellExecute = false;
-            processo.StartInfo.RedirectStandardInput = true;
-            processo.StartInfo.RedirectStandardOutput = true;
-            processo.Start();
-            processo.StandardInput.WriteLine(comando);
-            processo.StandardInput.Flush();
-            processo.StandardInput.Close();
-            processo.WaitForExit();
-        }
-
         private void btnOk_Click(object sender, EventArgs e)
         {
             tempo = Convert.ToInt32(numericUpDown1.Value);
             tempo = (tempo * 60) * 60;
             comando = "shutdown -s -t " + tempo;
-            consoleWritter();
+            Operacoes.consoleWritter(comando);
+            Operacoes.abrirAviso();
         }
     }
 }

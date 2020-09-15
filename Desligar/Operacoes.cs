@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Desligar.SecondaryForms;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -8,10 +9,9 @@ using System.Windows.Forms;
 
 namespace Desligar
 {
-    public class Operacoes
+    public static class Operacoes
     {
-
-        public void consoleWritter(String comando)
+        public static void consoleWritter(String comando)
         {
             Process processo = new Process();
             processo.StartInfo.FileName = "cmd.exe";
@@ -25,9 +25,25 @@ namespace Desligar
             processo.WaitForExit();
         }
 
-        public void abrirAviso()
+        public static void abrirAviso()
         {
+            Form1 formAtivo = Program.form1;
+            FormAviso formAviso = new FormAviso();
+            formAviso.TopLevel = false;
+            formAviso.FormBorderStyle = FormBorderStyle.None;
+            formAviso.Dock = DockStyle.Fill;
+            formAtivo.panelFormSecundario.Controls.Add(formAviso);
+            formAtivo.panelFormSecundario.Tag = formAviso;
+            formAviso.BringToFront();
+            formAviso.Show();
 
+            /* childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            this.panelFormSecundario.Controls.Add(childForm);
+            this.panelFormSecundario.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show(); */
         }
     }
 }

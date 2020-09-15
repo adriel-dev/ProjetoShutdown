@@ -15,7 +15,6 @@ namespace Desligar.SecondaryForms
     {
         int tempo;
         string comando = "shutdown -s -t";
-        Operacoes operacoes;
 
         public FormMinutos()
         {
@@ -42,19 +41,11 @@ namespace Desligar.SecondaryForms
 
         private void btnOk_Click(object sender, EventArgs e)
         {
-            operacoes = new Operacoes();
             tempo = Convert.ToInt32(numericUpDown1.Value);
             tempo = tempo * 60;
             comando = "shutdown -s -t " + tempo;
-            operacoes.consoleWritter(comando);
-            abrirFormAviso(new SecondaryForms.FormAviso(), (Button)sender);
-        }
-
-        private void abrirFormAviso(Form childForm, Button btnSender)
-        {
-            childForm.TopLevel = false;
-            childForm.BringToFront();
-            childForm.Show();
+            Operacoes.consoleWritter(comando);
+            Operacoes.abrirAviso();
         }
     }
 }

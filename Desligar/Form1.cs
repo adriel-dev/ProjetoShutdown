@@ -100,7 +100,7 @@ namespace Desligar
 
         private void btnFechar_MouseLeave(object sender, EventArgs e)
         {
-            btnFechar.BackColor = Color.FromArgb(51, 51, 75);
+            btnFechar.BackColor = Color.FromArgb(41, 41, 65);
         }
 
         private void btnMinimizar_Click(object sender, EventArgs e)
